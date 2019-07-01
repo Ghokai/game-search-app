@@ -51,7 +51,7 @@ export default function GameStore(props: GameSearchStoreProps) {
             item.title.toLowerCase().includes(searchTerm.toLowerCase())
         );
         dispatch({
-          type: "setGames",
+          type: SET_GAMES_ACTION,
           payload: filteredGames
         });
       });
