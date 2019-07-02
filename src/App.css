@@ -4,6 +4,7 @@ body {
 .searchInput {
   width: 98%;
   height: 30px;
+  font-size: 20px;
 }
 
 .search {
@@ -32,7 +33,6 @@ body {
 .game-description {
   height: 110px;
   overflow-y: scroll;
-  font-size: 15px;
 }
 
 .game-pic {
@@ -53,6 +53,9 @@ body {
   .game-title {
     font-size: 20px;
   }
+  .game-description {
+    font-size: 15px;
+  }
 }
 
 /* 
@@ -65,7 +68,10 @@ body {
     width: 24%;
   }
   .game-title {
-    font-size: 16px;
+    font-size: 15px;
+  }
+  .game-description {
+    font-size: 13px;
   }
 }
 
@@ -79,7 +85,10 @@ body {
     width: 31%;
   }
   .game-title {
-    font-size: 16px;
+    font-size: 15px;
+  }
+  .game-description {
+    font-size: 13px;
   }
 }
 
@@ -93,7 +102,10 @@ body {
     width: 24%;
   }
   .game-title {
-    font-size: 16px;
+    font-size: 13px;
+  }
+  .game-description {
+    font-size: 12px;
   }
 }
 
@@ -107,7 +119,10 @@ body {
     width: 31%;
   }
   .game-title {
-    font-size: 16px;
+    font-size: 15px;
+  }
+  .game-description {
+    font-size: 13px;
   }
 }
 
@@ -121,6 +136,9 @@ body {
     width: 47%;
   }
   .game-title {
-    font-size: 14px;
+    font-size: 13px;
+  }
+  .game-description {
+    font-size: 12px;
   }
 }
