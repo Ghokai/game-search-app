@@ -4,7 +4,6 @@ body {
 .searchInput {
   width: 98%;
   height: 30px;
-  font-size: 20px;
 }
 
 .search {
@@ -27,7 +26,6 @@ body {
   text-align: center;
   font-weight: 600;
   color: red;
-  font-size: 20px;
   font-style: italic;
 }
 
@@ -52,6 +50,9 @@ body {
   .game {
     width: 24%;
   }
+  .game-title {
+    font-size: 20px;
+  }
 }
 
 /* 
@@ -62,6 +63,9 @@ body {
 @media (min-width: 1025px) and (max-width: 1280px) {
   .game {
     width: 24%;
+  }
+  .game-title {
+    font-size: 16px;
   }
 }
 
@@ -74,6 +78,9 @@ body {
   .game {
     width: 31%;
   }
+  .game-title {
+    font-size: 16px;
+  }
 }
 
 /* 
@@ -84,6 +91,9 @@ body {
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
   .game {
     width: 24%;
+  }
+  .game-title {
+    font-size: 16px;
   }
 }
 
@@ -96,6 +106,9 @@ body {
   .game {
     width: 31%;
   }
+  .game-title {
+    font-size: 16px;
+  }
 }
 
 /* 
@@ -106,5 +119,8 @@ body {
 @media (min-width: 320px) and (max-width: 480px) {
   .game {
     width: 47%;
+  }
+  .game-title {
+    font-size: 14px;
   }
 }
